@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+    <LinearLayout android:id="@+id/ll"
+        android:layout_width="394dp"
+        android:layout_height="128dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="220dp"
+        android:orientation="vertical">
+        <Button android:id="@+id/but"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:text="@string/show_dialog" />
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_marginBottom="271dp"
+            android:onClick="show"
+            android:text="@string/show_dialog2" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/but3"
+        android:layout_width="394dp"
+        android:layout_height="59dp"
+        android:layout_below="@id/ll"
+        android:layout_marginTop="2dp"
+        android:gravity="center"
+        android:text="Main Dialog" />
+</RelativeLayout>
